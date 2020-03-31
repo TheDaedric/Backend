@@ -1,3 +1,4 @@
+
 """
 Django settings for cs project.
 
@@ -25,7 +26,7 @@ SECRET_KEY = '1mzv0_b-z5h@)gug4h$vvp+!xnwh11)(t89!!)p8^4!d#)o(-e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','34.229.47.154']
+ALLOWED_HOSTS = ['localhost','3.86.38.172','kolapika.ddns.net']
 
 
 # Application definition
@@ -38,7 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'rest_framework.authtoken'
+    'rest_framework.authtoken',
+    'rest_framework_swagger',
+    'Login',
+    'Profile'
 ]
 SITE_ID=1
 
